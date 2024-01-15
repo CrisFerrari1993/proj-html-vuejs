@@ -10,6 +10,18 @@
 
 # AppHeader
 
+Francesco Fabbri Rebecchi
+
 # AppMain
 
+Matteo Fantacuzzi
+(section 6square,
+contact,
+calendar)
+Cristopher Ferrari
+(jumbotron,
+work in progress)
+
 # AppFooter
+
+Francesco Fabbri Rebecchi
