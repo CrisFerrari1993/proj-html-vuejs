@@ -6,24 +6,83 @@ export default {
 
 <template>
 <!-- Jumbotron -->
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
+<div id="carouselExampleControls" class="carousel slide fixed-height" data-bs-ride="carousel">
+  <div class="carousel-inner custom-padding">
     <div class="carousel-item active">
-      <img src="../../public/jumbotron/short-slider-rev-1-img-3.png" class="img-fluid" alt="jumbotron img">
+       <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 col-xl-6 d-flex align-items-center">
+            <div>
+              <h1>
+                Projects made with <strong>love</strong>
+              </h1>
+              <p>
+                Aliquid unde suscipit repudiandae quidem iure! Blanditiis, omnis vel. Rerum, modi!
+              </p>
+              <button>
+                READ MORE
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-xl-6 d-flex justify-content-center p-5">
+            <img src="../../public/jumbotron/short-slider-rev-1-img-3.png" class="img-fluid" alt="">
+          </div>
+        </div>
+       </div>
     </div>
     <div class="carousel-item">
-      <img src="../../public/jumbotron/short-slider-rev-1-img-1.png" class="img-fluid" alt="...">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-xl-6 d-flex align-items-center">
+            <div>
+              <h1>
+                Projects made with <strong>love</strong>
+              </h1>
+              <p>
+                Aliquid unde suscipit repudiandae quidem iure! Blanditiis, omnis vel. Rerum, modi!
+              </p>
+              <button>
+                READ MORE
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-xl-6 d-flex justify-content-center p-5">
+            <img src="../../public/jumbotron/h-2-slider-img-11.png" class="img-fluid" alt="">
+          </div>
+        </div>
+       </div>
     </div>
     <div class="carousel-item">
-      <img src="../../public/jumbotron/short-slider-rev-1-img-5.png" class="img-fluid" alt="...">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 col-xl-6 d-flex align-items-center">
+            <div>
+              <h1>
+                Projects made with <strong>love</strong>
+              </h1>
+              <p>
+                Aliquid unde suscipit repudiandae quidem iure! Blanditiis, omnis vel. Rerum, modi!
+              </p>
+              <button>
+                READ MORE
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-xl-6 d-flex justify-content-center p-5">
+            <img src="../../public/jumbotron/h-2-slider-img-16.png" class="img-fluid" alt="">
+            <img src="../../public/jumbotron/h-2-slider-img-15.png" class="img-fluid" alt="">
+
+          </div>
+        </div>
+       </div>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="carousel-control px-3 py-2 rounded-circle pink" aria-hidden="true"><i class="fa-solid fa-angle-left"></i></span>
     <span class="visually-hidden">Previous</span>
   </button>
   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="carousel-control px-3 py-2 rounded-circle pink" aria-hidden="true"><i class="fa-solid fa-angle-right"></i></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
@@ -31,7 +90,14 @@ export default {
 
 <style lang="scss" scoped>
 @use "../styles/general.scss";
-
-
+.custom-padding{
+  padding: 0 15rem;
+}
+.fixed-height{
+  height: 500px;
+}
+.pink {
+  background-color: #e1c0b0;
+}
 
 </style>
