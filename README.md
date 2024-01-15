@@ -5,7 +5,7 @@
 {Members}
 
 - Matteo Fantacuzzi
-- Francesco Fabbri Rebecchi\
+- Francesco Fabbri Rebecchi
 - Cristopher Ferrari
 
 # AppHeader
