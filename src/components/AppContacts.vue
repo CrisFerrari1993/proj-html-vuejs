@@ -5,8 +5,7 @@ export default {
 </script>
 
 <template>
-    <h1>App Contacts</h1>
-    <div class="my_container">
+    <div class="appcontacts_container">
         <div class="txt-container">
             <h1>
                 Want to work with us? Send us
@@ -29,7 +28,7 @@ export default {
 <style lang="scss">
 @use "../styles/general.scss";
 
-.my_container {
+.appcontacts_container {
     width: 100%;
     background-image: url(https://maree.qodeinteractive.com/wp-content/uploads/2019/05/h-2-background-1.jpg?id=589);
     background-size: cover;
