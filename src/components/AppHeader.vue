@@ -19,6 +19,8 @@ export default {
 
 <template>
     <header>
+
+
         <!-- logo -->
         <div class="logo">
             <img src="../../public/logo-sidearea-1.png" alt="Marèe">
@@ -196,11 +198,18 @@ export default {
 
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                    <img src="../../public/logo-sidearea-1.png" alt="Marèe">
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div class="offcanvas-body">
-                    ...
+                <div class="offcanvas-body my_offcanvas_body">
+                    <span>This is Marèe, a colorful new portfolio for presenting your work. If you are a modern illustrator
+                        or designer, we made Marèe for you</span>
+                    <div id="social_icon">
+                        <i class="fa-brands fa-twitter" style="color: #000000;"></i>
+                        <i class="fa-brands fa-pinterest" style="color: #000000;"></i>
+                        <i class="fa-brands fa-facebook" style="color: #000000;"></i>
+                        <i class="fa-brands fa-linkedin" style="color: #000000;"></i>
+                    </div>
                 </div>
             </div>
 
@@ -250,5 +259,24 @@ ul {
 .fa-solid {
     background-color: white !important;
     border: none !important;
+}
+
+.my_offcanvas_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    img {
+        width: 50%;
+    }
+
+    span {
+        margin-bottom: 80px;
+    }
+
+    i {
+        margin-right: 10px;
+    }
 }
 </style>
