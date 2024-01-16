@@ -6,22 +6,21 @@ export default {
 
 <template>
   <footer>
-
     <div class="container-fluid">
       <div class="row">
-        <div class="col-3 text-center my-col">
+        <div class="col-12 col-md-6 col-lg-3 text-center my-col mb-3">
           <img src="../../public/logo-sidearea-1.png" alt="Marèe">
           <span>Let's Get Creative</span>
         </div>
-        <div class="col-3 text-center my-col">
+        <div class="col-12 col-md-6 col-lg-3 text-center my-col mb-3">
           <span>maree@qodeinteractive.com</span>
           <span>+44645 321 789</span>
         </div>
-        <div class="col-3 text-center my-col">
+        <div class="col-12 col-md-6 col-lg-3 text-center my-col mb-3">
           <span>Avenue d'Auberghem 10</span>
           <span>1040 Brussels, Belgium</span>
         </div>
-        <div class="col-3 text-center my-col">
+        <div class="col-12 col-md-6 col-lg-3 text-center my-col mb-3">
           <span>Stay in touch with us</span>
           <div id="social_icon">
             <i class="fa-brands fa-twitter" style="color: #000000;"></i>
@@ -32,9 +31,10 @@ export default {
         </div>
       </div>
     </div>
-
   </footer>
 </template>
+
+
 
 <style lang="scss" scoped>
 footer {
