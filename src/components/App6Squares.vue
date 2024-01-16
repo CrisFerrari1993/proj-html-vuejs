@@ -24,7 +24,7 @@ export default {
                     name: 'img3',
                     path: 'https://maree.qodeinteractive.com/wp-content/uploads/2019/05/h-2-port-img-3.jpg',
                     labletxt: {
-                        title: 'All these illustration',
+                        title: 'Draw and illustrate',
                         description: 'Illustration'
                     }
                 },
