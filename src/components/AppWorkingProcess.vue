@@ -74,5 +74,8 @@ export default {
             font-family: Georgia, 'Times New Roman', Times, serif;
         }
     }
+    p {
+        color: grey;
+    }
 }
 </style>
