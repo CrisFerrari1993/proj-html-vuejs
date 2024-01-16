@@ -11,7 +11,7 @@ export default {
     <div class="carousel-item active">
        <div class="container">
         <div class="row">
-          <div class="col-12 col-md-12 col-xl-6 d-flex align-items-center">
+          <div class="col-12 col-md-12 col-xl-6 d-flex justify-content-center align-items-center">
             <div>
               <h1>
                 Projects made with <strong>love</strong>
@@ -19,7 +19,7 @@ export default {
               <p>
                 Aliquid unde suscipit repudiandae quidem iure! Blanditiis, omnis vel. Rerum, modi!
               </p>
-              <button>
+              <button class="my_btn">
                 READ MORE
               </button>
             </div>
@@ -33,7 +33,7 @@ export default {
     <div class="carousel-item">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-6 col-xl-6 d-flex align-items-center">
+          <div class="col-12 col-md-6 col-xl-6 d-flex justify-content-center align-items-center">
             <div>
               <h1>
                 Projects made with <strong>love</strong>
@@ -41,7 +41,7 @@ export default {
               <p>
                 Aliquid unde suscipit repudiandae quidem iure! Blanditiis, omnis vel. Rerum, modi!
               </p>
-              <button>
+              <button class="my_btn">
                 READ MORE
               </button>
             </div>
@@ -55,7 +55,7 @@ export default {
     <div class="carousel-item">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-12 col-xl-6 d-flex align-items-center">
+          <div class="col-12 col-md-12 col-xl-6 d-flex justify-content-center align-items-center">
             <div>
               <h1>
                 Projects made with <strong>love</strong>
@@ -63,7 +63,7 @@ export default {
               <p>
                 Aliquid unde suscipit repudiandae quidem iure! Blanditiis, omnis vel. Rerum, modi!
               </p>
-              <button>
+              <button class="my_btn">
                 READ MORE
               </button>
             </div>
