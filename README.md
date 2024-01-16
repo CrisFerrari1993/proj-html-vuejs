@@ -16,7 +16,7 @@ Francesco Fabbri Rebecchi
 
 Matteo Fantacuzzi
 (section 6square, FATTO
-contact,
+contact, FATTO
 calendar)
 Cristopher Ferrari
 (jumbotron,
