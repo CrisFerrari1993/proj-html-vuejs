@@ -2,13 +2,15 @@
 import App6Squares from './App6Squares.vue';
 import AppContacts from './AppContacts.vue';
 import AppJumbotron from './AppJumbotron.vue';
+import AppWorkingProcess from './AppWorkingProcess.vue';
 
 export default {
   name: 'AppMain',
   components: {
     App6Squares,
     AppContacts,
-    AppJumbotron
+    AppJumbotron,
+    AppWorkingProcess,
   }
 }
 </script>
@@ -18,7 +20,8 @@ export default {
   <AppJumbotron />
   <!-- Sezione con 6 quadrati -->
   <App6Squares />
-
+  <!-- Working Progress -->
+  <AppWorkingProcess/>
   <!-- Sezione contatti -->
   <AppContacts />
 </template>
