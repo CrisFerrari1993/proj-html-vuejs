@@ -200,7 +200,7 @@ export default {
 
                     </div>
                     <!-- off canvas menu -->
-                    <i class="fa-solid fa-bars btn btn-primary" style="color: #000000;" data-bs-toggle="offcanvas"
+                    <i class="fa-solid fa-bars btn-primary" style="color: #000000;" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i>
 
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
