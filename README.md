@@ -20,7 +20,7 @@ contact,
 calendar)
 Cristopher Ferrari
 (jumbotron,
-work in progress)
+done)
 
 # AppFooter
 
