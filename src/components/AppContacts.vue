@@ -25,7 +25,7 @@ export default {
     </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @use "../styles/general.scss";
 
 .appcontacts_container {
