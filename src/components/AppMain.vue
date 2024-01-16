@@ -11,7 +11,7 @@ export default {
     <div class="carousel-item active">
        <div class="container">
         <div class="row">
-          <div class="col-12 col-md-12 col-xl-6 d-flex justify-content-center align-items-center">
+          <div class="col-12 col-sm-12 col-md-6 col-xl-6 d-flex justify-content-center align-items-center">
             <div>
               <h1>
                 Projects made with <strong>love</strong>
@@ -24,8 +24,8 @@ export default {
               </button>
             </div>
           </div>
-          <div class="col-12 col-md-12 col-xl-6 d-flex justify-content-center p-5">
-            <img src="../../public/jumbotron/short-slider-rev-1-img-3.png" class="img-fluid" alt="">
+          <div class="col-12 col-sm-12 col-md-6 col-xl-6 d-flex justify-content-center align-items-center">
+            <img src="../../public/jumbotron/short-slider-rev-1-img-3.png" class="my_img" alt="">
           </div>
         </div>
        </div>
@@ -33,7 +33,7 @@ export default {
     <div class="carousel-item">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-6 col-xl-6 d-flex justify-content-center align-items-center">
+          <div class="col-12 col-sm-12 col-md-6 col-xl-6 d-flex justify-content-center align-items-center">
             <div>
               <h1>
                 Projects made with <strong>love</strong>
@@ -46,8 +46,8 @@ export default {
               </button>
             </div>
           </div>
-          <div class="col-12 col-md-12 col-xl-6 d-flex justify-content-center p-5">
-            <img src="../../public/jumbotron/h-2-slider-img-11.png" class="img-fluid" alt="">
+          <div class="col-12 col-sm-12 col-md-6 col-xl-6 d-flex justify-content-center align-items-center">
+            <img src="../../public/jumbotron/h-2-slider-img-11.png" class="my_img" alt="">
           </div>
         </div>
        </div>
@@ -55,7 +55,7 @@ export default {
     <div class="carousel-item">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-12 col-xl-6 d-flex justify-content-center align-items-center">
+          <div class="col-12 col-sm-12 col-md-6 col-xl-6 d-flex justify-content-center align-items-center">
             <div>
               <h1>
                 Projects made with <strong>love</strong>
@@ -68,9 +68,9 @@ export default {
               </button>
             </div>
           </div>
-          <div class="col-12 col-md-12 col-xl-6 d-flex justify-content-center p-5">
-            <img src="../../public/jumbotron/h-2-slider-img-16.png" class="img-fluid" alt="">
-            <img src="../../public/jumbotron/h-2-slider-img-15.png" class="img-fluid" alt="">
+          <div class="col-12 col-sm-12 col-md-6 col-xl-6 d-flex justify-content-center align-items-center">
+            <img src="../../public/jumbotron/h-2-slider-img-16.png" class="my_img" alt="">
+            <img src="../../public/jumbotron/h-2-slider-img-15.png" class="my_img" alt="">
 
           </div>
         </div>
@@ -95,6 +95,9 @@ export default {
 }
 .fixed-height{
   height: 500px;
+}
+.my_img{
+  min-width: 200px;
 }
 .pink {
   background-color: #e1c0b0;
