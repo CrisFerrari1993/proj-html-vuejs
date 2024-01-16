@@ -9,8 +9,8 @@ export default {
     <h1>Working <strong><em>process</em></strong></h1>
     <div class="row">
         <div class="col-12 col-md-12 col-xl-3">
-            <div class="text-center">
-                <i class="fa-solid fa-lightbulb p-5 "></i>
+            <div class="my_icon my-5">
+                <i class="fa-solid fa-lightbulb color-aquamarine"></i>
             </div>
             <div class="text-center">
                 <h5>
@@ -22,8 +22,8 @@ export default {
             </div>
         </div>
         <div class="col-12 col-md-12 col-xl-3">
-            <div class="text-center">
-                <i class="fa-regular fa-comment p-5"></i>
+            <div class="my_icon my-5">
+                <i class="fa-regular fa-comment color-gold"></i>
             </div>
             <div class="text-center">
                 <h5>
@@ -35,8 +35,8 @@ export default {
             </div>
         </div>
         <div class="col-12 col-md-12 col-xl-3">
-            <div class="text-center">
-                <i class="fa-solid fa-cloud p-5"></i>
+            <div class="my_icon my-5">
+                <i class="fa-solid fa-cloud color-marron"></i>
             </div>
             <div class="text-center">
                 <h5>
@@ -48,8 +48,8 @@ export default {
             </div>
         </div>
         <div class="col-12 col-md-12 col-xl-3">
-            <div class="text-center">
-                <i class="fa-solid fa-pen-ruler p-5"></i>
+            <div class="my_icon my-5">
+                <i class="fa-solid fa-pen-ruler color-orange"></i>
             </div>
             <div class="text-center">
                 <h5>
@@ -77,5 +77,32 @@ export default {
     p {
         color: grey;
     }
+    .my_icon{
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+        	display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 4rem 0;
+            background-color: #faf7f1;
+            border-radius: 50%;
+        i {
+        font-size: 3rem;
+        &.color-orange {
+            color:#eb6950 ;
+        }
+        &.color-marron {
+            color:#80465f ;
+        }
+        &.color-gold {
+            color:#f8d12d ;
+        }
+        &.color-aquamarine {
+            color:#badac9 ;
+        }
+        }
+    }
+    
 }
 </style>
