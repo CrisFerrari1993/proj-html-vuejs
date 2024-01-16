@@ -6,6 +6,7 @@ export default {
 
 <template>
     <h1>App Contacts</h1>
+    <div class=""></div>
 </template>
 
 <style lang="scss">
