@@ -118,7 +118,6 @@ export default {
     }
   }
 
-<<<<<<< HEAD
   p{
     margin: 2rem 0;
   }
@@ -166,14 +165,13 @@ export default {
   .pink {
     background-color: #e1c0b0;
   }
-  }
-=======
-.fixed-height {
+
+  .fixed-height {
   height: 500px;
-}
+  }
 
 .pink {
   background-color: #e1c0b0;
 }
->>>>>>> 0430e38 (creazione componente)
+}
 </style>
