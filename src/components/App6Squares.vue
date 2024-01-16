@@ -59,7 +59,6 @@ export default {
 </script>
 
 <template>
-    <h1>Sezione con 6 quadrati</h1>
     <div class="my_container">
         <div class="my_row align-items-start">
             <div v-for="(img, i) in imgsList" class="col-md-4 col-sm-6 col-xs-12 my_col-box">
