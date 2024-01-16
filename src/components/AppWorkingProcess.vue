@@ -10,7 +10,7 @@ export default {
     <div class="row">
         <div class="col-12 col-md-12 col-xl-3">
             <div class="my_icon my-5">
-                <i class="fa-solid fa-lightbulb color-aquamarine"></i>
+                <i class="fa-regular fa-lightbulb color-aquamarine"></i>
             </div>
             <div class="text-center">
                 <h5>
@@ -36,7 +36,7 @@ export default {
         </div>
         <div class="col-12 col-md-12 col-xl-3">
             <div class="my_icon my-5">
-                <i class="fa-solid fa-cloud color-marron"></i>
+                <i class="fa-brands fa-cloudversify color-marron"></i>
             </div>
             <div class="text-center">
                 <h5>
@@ -49,7 +49,7 @@ export default {
         </div>
         <div class="col-12 col-md-12 col-xl-3">
             <div class="my_icon my-5">
-                <i class="fa-solid fa-pen-ruler color-orange"></i>
+                <i class="fa-regular fa-pen-to-square color-orange"></i>
             </div>
             <div class="text-center">
                 <h5>
@@ -85,10 +85,12 @@ export default {
             justify-content: center;
             align-items: center;
             padding: 4rem 0;
-            background-color: #faf7f1;
             border-radius: 50%;
+            background-color: #faf7f1;
         i {
         font-size: 3rem;
+        padding: 1rem;
+        background-color: none;
         &.color-orange {
             color:#eb6950 ;
         }
