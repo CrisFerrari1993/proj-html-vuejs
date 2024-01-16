@@ -15,7 +15,7 @@ Francesco Fabbri Rebecchi
 # AppMain
 
 Matteo Fantacuzzi
-(section 6square,
+(section 6square, FATTO
 contact,
 calendar)
 Cristopher Ferrari

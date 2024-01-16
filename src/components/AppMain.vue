@@ -1,10 +1,12 @@
 <script>
 import App6Squares from './App6Squares.vue';
+import AppContacts from './AppContacts.vue';
 
 export default {
   name: 'AppMain',
   components: {
-    App6Squares
+    App6Squares,
+    AppContacts
   }
 }
 </script>
@@ -95,6 +97,9 @@ export default {
 
   <!-- Sezione con 6 quadrati -->
   <App6Squares />
+
+  <!-- Sezione contatti -->
+  <AppContacts />
 </template>
 
 <style lang="scss" scoped>
@@ -113,6 +118,7 @@ export default {
     }
   }
 
+<<<<<<< HEAD
   p{
     margin: 2rem 0;
   }
@@ -161,4 +167,13 @@ export default {
     background-color: #e1c0b0;
   }
   }
+=======
+.fixed-height {
+  height: 500px;
+}
+
+.pink {
+  background-color: #e1c0b0;
+}
+>>>>>>> 0430e38 (creazione componente)
 </style>

@@ -1,11 +1,11 @@
 <script>
 export default {
-  name: 'AppFooter'
+    name: 'AppContacts'
 }
 </script>
 
 <template>
-  <h1>Footer page</h1>
+    <h1>App Contacts</h1>
 </template>
 
 <style lang="scss">
