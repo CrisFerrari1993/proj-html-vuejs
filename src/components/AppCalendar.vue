@@ -6,11 +6,11 @@ export default {
 
 <template>
     <h1>AppCalendar</h1>
-    <div class="appcalendar_container">
+    <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12 ">ciao</div>
-            <div class="col-md-4 col-sm-6 col-xs-12">ciao</div>
-            <div class="col-md-4 col-sm-6 col-xs-12">ciao</div>
+            <div class="col-md-4 col-sm-6 col-xs-12 card">ciao</div>
+            <div class="col-md-4 col-sm-6 col-xs-12 card">ciao</div>
+            <div class="col-md-4 col-sm-6 col-xs-12 card">ciao</div>
         </div>
     </div>
 </template>
@@ -18,7 +18,7 @@ export default {
 <style lang="scss" scoped>
 @use "../styles/general.scss";
 
-.appcalendar_container {
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,6 +30,11 @@ export default {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        .card {
+            min-height: 200px;
+            background-color: red;
+        }
     }
 }
 </style>
