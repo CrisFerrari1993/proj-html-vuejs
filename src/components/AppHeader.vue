@@ -57,19 +57,41 @@ export default {
                 <button class="btn my_btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     PORTFOLIO
                 </button>
-                <ul class="dropdown-menu my_dropdown-menu portfolio_dropdown">
+                <ul class="dropdown-menu my_dropdown-menu portfolio_dropdown my_dropdown">
+
                     <div class="row">
                         <div class="col">
                             <span>TYPES</span>
+                            <li v-for="(element, i) in store.typeLinks" :key="i">
+                                <a class="dropdown-item" :href="element.href">
+                                    {{ element.name }}
+                                </a>
+                            </li>
                         </div>
+
                         <div class="col">
                             <span>LAYOUTS</span>
+                            <li v-for="(element, i) in store.layoutsLinks" :key="i">
+                                <a class="dropdown-item" :href="element.href">
+                                    {{ element.name }}
+                                </a>
+                            </li>
                         </div>
                         <div class="col">
                             <span>HOVER TYPES</span>
+                            <li v-for="(element, i) in store.hoverTypesLinks" :key="i">
+                                <a class="dropdown-item" :href="element.href">
+                                    {{ element.name }}
+                                </a>
+                            </li>
                         </div>
                         <div class="col">
                             <span>SINGLES</span>
+                            <li v-for="(element, i) in store.singleLinks" :key="i">
+                                <a class="dropdown-item" :href="element.href">
+                                    {{ element.name }}
+                                </a>
+                            </li>
                         </div>
                     </div>
                 </ul>
@@ -78,16 +100,68 @@ export default {
                 <button class="btn my_btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     BLOG
                 </button>
+                <ul class="dropdown-menu my_dropdown-menu">
+                    <li v-for="(element, i) in store.blogLinks" :key="i">
+                        <a class="dropdown-item" :href="element.href">
+                            {{ element.name }}
+                        </a>
+                    </li>
+                </ul>
 
                 <!-- Shop -->
                 <button class="btn my_btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    BLOG
+                    SHOP
                 </button>
+                <ul class="dropdown-menu my_dropdown-menu">
+                    <li v-for="(element, i) in store.shopLinks" :key="i">
+                        <a class="dropdown-item" :href="element.href">
+                            {{ element.name }}
+                        </a>
+                    </li>
+                </ul>
 
                 <!-- Elements -->
                 <button class="btn my_btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    BLOG
+                    ELEMENTS
                 </button>
+                <ul class="dropdown-menu my_dropdown-menu portfolio_dropdown my_dropdown">
+
+                    <div class="row">
+                        <div class="col">
+                            <span>TYPES</span>
+                            <li v-for="(element, i) in store.typeLinks" :key="i">
+                                <a class="dropdown-item" :href="element.href">
+                                    {{ element.name }}
+                                </a>
+                            </li>
+                        </div>
+
+                        <div class="col">
+                            <span>LAYOUTS</span>
+                            <li v-for="(element, i) in store.layoutsLinks" :key="i">
+                                <a class="dropdown-item" :href="element.href">
+                                    {{ element.name }}
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col">
+                            <span>HOVER TYPES</span>
+                            <li v-for="(element, i) in store.hoverTypesLinks" :key="i">
+                                <a class="dropdown-item" :href="element.href">
+                                    {{ element.name }}
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col">
+                            <span>SINGLES</span>
+                            <li v-for="(element, i) in store.singleLinks" :key="i">
+                                <a class="dropdown-item" :href="element.href">
+                                    {{ element.name }}
+                                </a>
+                            </li>
+                        </div>
+                    </div>
+                </ul>
 
             </div>
 
@@ -97,7 +171,7 @@ export default {
 
 <style lang="scss">
 header {
-    height: 20%;
+    height: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,5 +184,6 @@ header {
 
 .portfolio_dropdown {
     width: 100vw !important;
+    // display: flex !important;
 }
 </style>
