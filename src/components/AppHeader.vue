@@ -23,9 +23,9 @@ export default {
 
         <!-- logo -->
         <div class="logo">
-            <router-link :to="home" class="nav-link">
-                <img src="../../public/logo-sidearea-1.png" alt="Marèe">
-            </router-link>
+            <!-- <router-link :to="home" class="nav-link"> -->
+            <img src="../../public/logo-sidearea-1.png" alt="Marèe">
+            <!-- </router-link> -->
         </div>
 
         <!-- nav bar -->
