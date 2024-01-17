@@ -1,9 +1,14 @@
 <script>
 
+// import dei componenti
+import Offerts from '../components/Offerts.vue';
+
 
 export default {
-    name: 'OurTeam',
-
+    name: 'WhatWeOffer',
+    components: {
+        Offerts,
+    }
 }
 </script>
 
@@ -13,6 +18,8 @@ export default {
             What we <strong><em>offer</em></strong>
         </h1>
     </div>
+
+    <Offerts />
 </template>
 
 <style lang="scss">
