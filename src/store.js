@@ -4,6 +4,7 @@ export const store = reactive({
 
     // home links
     homeLinks: [
+        { name: 'Main Home', href: '/' },
         { name: 'Floating Portfolio', href: '#'},
         { name: 'Portfolio Pinterest', href: '#'},
         { name: 'Animated Slider', href: '#'},
@@ -21,7 +22,7 @@ export const store = reactive({
         { name: 'About Me', href: '#'},
         { name: 'What we Offer', href: '#'},
         { name: 'Working Process', href: '#'},
-        { name: 'Our Team', href: '#'},
+        { name: 'Our Team', href: '/ourteam'},
         { name: 'Pricing Plans', href: '#'},
         { name: 'Contact Us', href: '#'},
         { name: 'Cooming Soon', href: '#'},
