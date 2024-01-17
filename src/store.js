@@ -20,7 +20,7 @@ export const store = reactive({
     pagesLinks: [
         { name: 'About Us', href: '#'},
         { name: 'About Me', href: '#'},
-        { name: 'What we Offer', href: '#'},
+        { name: 'What we Offer', href: '/whatweoffer'},
         { name: 'Working Process', href: '#'},
         { name: 'Our Team', href: '/ourteam'},
         { name: 'Pricing Plans', href: '#'},

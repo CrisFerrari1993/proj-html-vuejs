@@ -4,6 +4,8 @@ import Home from './pages/Home.vue';
 import About from './pages/About.vue';
 import NotFound from './pages/NotFound.vue';
 import OurTeam from './pages/OurTeam.vue';
+import WhatWeOffer from './pages/WhatWeOffer.vue';
+
 
 const router = createRouter ({
     history: createWebHistory(),
@@ -27,6 +29,11 @@ const router = createRouter ({
             path: '/ourteam',
             name: 'ourteam',
             component: OurTeam
+        },
+        {
+            path: '/whatweoffer',
+            name: 'whatWeOffer',
+            component: WhatWeOffer
         }
     ]
 })
