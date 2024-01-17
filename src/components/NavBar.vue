@@ -2,16 +2,20 @@
 import { store } from '../store.js';
 
 export default {
-    name: 'NavBar',
-    data() {
-        return {
-            store,
-        }
+  name: 'NavBar',
+  data() {
+    return {
+      store,
     }
+  },
+  created() {
+    console.log(store.navLinks[0].links[0]);
+  }
 }
 </script>
 
 <template>
+<<<<<<< HEAD
     <header class="container">
         <nav class="navbar navbar-expand-lg justify-content-between flex-grow-1">
                 <a href="/">
@@ -118,4 +122,47 @@ header{
         display: none;
     }
 }
+=======
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a href="/home">
+        <img src="../../public/logo-sidearea-1.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li v-for="(link, i) in store.navLinks" :key="i" class="nav-item dropdown">
+            <a class="nav-link" href="#" :id="'navbarDropdown' + i" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              {{ link.name }}
+            </a>
+            <ul class="dropdown-menu" :aria-labelledby="'navbarDropdown' + i">
+              <li v-for="(sectionLink, j) in link.links" :key="j" class="nav-item dropdown">
+                <a class="nav-link" href="#" :id="'navbarDropdownSec' + i + j" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  {{ sectionLink.name }}
+                </a>
+                <ul class="dropdown-menu" :aria-labelledby="'navbarDropdownSub' + i + j">
+                  <li v-for="(subLink, k) in sectionLink.links" :key="k" class="nav-item dropdown">
+                    <a class="nav-link" href="#" :id="'navbarDropdownSub' + i + j + k" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      {{ subLink.name }}
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</template>
+
+<style lang="scss">
+@use "../styles/general.scss"
+>>>>>>> f8e7f22 (tentativo di fare la navbar)
 </style>
