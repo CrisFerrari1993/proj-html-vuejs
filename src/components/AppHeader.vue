@@ -264,7 +264,7 @@ div.custom-cursor {
     height: 100%;
     display: flex;
     align-items: center;
-    margin-right: 80px;
+    margin-right: 20px;
     height: 100px;
 }
 
@@ -272,6 +272,8 @@ div.custom-cursor {
     background-color: #FAF7F2;
     border: none;
     line-height: 30px;
+    width: fit-content;
+    padding: 30px;
 }
 
 .portfolio_dropdown {
