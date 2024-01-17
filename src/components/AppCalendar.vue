@@ -43,7 +43,7 @@ export default {
 <template>
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12 card" v-for="(item, i) in calendarItems">
+            <div class="col-md-4 col-sm-6 col-xs-12 card my-4" v-for="(item, i) in calendarItems">
                 <div class="img-container">
                     <img :src="item.img" alt="">
                 </div>
