@@ -120,8 +120,5 @@ export default {
             }
         }
     }
-
-
-
 }
 </style>
