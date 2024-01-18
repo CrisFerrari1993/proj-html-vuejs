@@ -41,11 +41,9 @@ export default {
                         <span>{{ element.progressBar }}</span>
                     </div>
                     <div class="progress my_progress" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar my_progress_bar" :style="{ width: `${element.progressBar}%` }"></div>
+                        <div class="progress-bar my_progress_bar" :style="{ width: `${element.progressBar}` }"></div>
                     </div>
                 </div>
-
-                <!-- style="width: 25%" -->
 
             </div>
 
