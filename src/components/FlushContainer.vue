@@ -14,15 +14,16 @@ export default {
         <div class="container px-5 my-5">
           <!-- flushItem -->
           <div class="accordion" id="accordionPanelsStayOpenExample">
+
             <div class="accordion border-pink">
               <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                <button class="accordion-button  fw-bold letter-spacing" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed fw-bold letter-spacing" type="button" data-bs-toggle="collapse"
                   data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                   aria-controls="panelsStayOpen-collapseOne">
                   ANIMATION
                 </button>
               </h2>
-              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
                 aria-labelledby="panelsStayOpen-headingOne">
                 <div class="accordion-body">
                   Lorem ipsum dolor sit amet, vis dicunt mediocrem no, saperet pericula eam an. Justo labitur bonorum vix
@@ -30,6 +31,7 @@ export default {
                 </div>
               </div>
             </div>
+
             <div class="accordion border-pink">
               <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                 <button class="accordion-button collapsed fw-bold letter-spacing" type="button" data-bs-toggle="collapse"
@@ -46,6 +48,7 @@ export default {
                 </div>
               </div>
             </div>
+
             <div class="accordion border-pink">
               <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                 <button class="accordion-button collapsed fw-bold letter-spacing" type="button" data-bs-toggle="collapse"
@@ -62,6 +65,7 @@ export default {
                 </div>
               </div>
             </div>
+
             <div class="accordion border-pink">
               <h2 class="accordion-header" id="panelsStayOpen-headingFour">
                 <button class="accordion-button collapsed fw-bold letter-spacing" type="button" data-bs-toggle="collapse"
@@ -78,6 +82,7 @@ export default {
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
