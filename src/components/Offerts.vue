@@ -31,7 +31,6 @@ export default {
 </script>
 
 <template>
-    <h1>OFFERS</h1>
     <div class="row">
         <div class="col col-lg-6 col-md-12">
             <img src="https://maree.qodeinteractive.com/wp-content/uploads/2019/05/what-we-offer-img-1.jpg" alt="">
