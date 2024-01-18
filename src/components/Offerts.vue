@@ -99,7 +99,7 @@ li:hover {
 @media all and (max-width: 991px) {
 
     .right-col {
-        width: 85%;
+        width: 100%;
         margin-top: 80px;
         margin-bottom: 60px;
 
