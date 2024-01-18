@@ -5,7 +5,6 @@ export default {
 </script>
 
 <template>
-    <h1>Newsletter</h1>
     <div class="container">
         <div class="txt-container">
             <h2>Subscribe to our
