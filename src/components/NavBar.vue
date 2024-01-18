@@ -9,7 +9,6 @@ export default {
     }
   },
   created() {
-    console.log(store.navLinks[0].links[0]);
   }
 }
 </script>
@@ -31,9 +30,9 @@ export default {
               aria-expanded="false">
               {{ link.name.toUpperCase() }}
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li class="nav-item dropdown mx-2" v-for="(sectionLink, i) in store.navLinks[i].links">
-                <a class="dropdown-item" :href="sectionLink.href">
+            <ul class="dropdown-menu bg-yellow py-3 px-2" aria-labelledby="navbarDropdown">
+              <li class="nav-item dropdown mx-2" v-for="(sectionLink, j) in link.links" :key="j">
+                <a class="dropdown-item text-grey" :href="sectionLink.href">
                   {{ sectionLink.name }}
                 </a>
               </li>
@@ -119,9 +118,14 @@ header {
     width: 100%
   }
 
-  ;
 }
-
+.bg-yellow {
+  background-color:  #faf7f2;
+}
+.text-grey{
+  color: grey;
+  margin: 0.5rem 0;
+}
 @media all and (max-width: 1000px) {
   i.display {
     display: none;
