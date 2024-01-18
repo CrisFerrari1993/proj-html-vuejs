@@ -115,7 +115,13 @@ h1.big_font {
 
 p {
   color: grey;
+
+  &:not(:first-child) {
+    margin-top: 0;
+  }
 }
+
+
 
 .border-pink {
   border-bottom: 3px solid #f5d8ca;
@@ -123,5 +129,13 @@ p {
 
 .letter-spacing {
   letter-spacing: 2px;
+}
+
+.accordion-button:not(.collapsed) {
+  background: none;
+}
+
+.accordion-button:focus {
+  outline: none;
 }
 </style>
