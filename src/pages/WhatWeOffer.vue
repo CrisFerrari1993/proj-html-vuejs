@@ -32,7 +32,7 @@ export default {
     width: 100%;
     height: 300px;
     // da modificare con img di background
-    background-color: #FAF7F1;
+    background-image: url(https://maree.qodeinteractive.com/wp-content/uploads/2019/06/title-area-img.png);
     display: flex;
     justify-content: center;
     align-items: center;
