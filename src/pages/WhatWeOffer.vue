@@ -2,12 +2,14 @@
 
 // import dei componenti
 import Offerts from '../components/Offerts.vue';
+import VibesLovingIntro from '../components/VibesLovingIntro.vue';
 
 
 export default {
     name: 'WhatWeOffer',
     components: {
         Offerts,
+        VibesLovingIntro,
     }
 }
 </script>
@@ -20,6 +22,7 @@ export default {
     </div>
 
     <Offerts />
+    <VibesLovingIntro />
 </template>
 
 <style lang="scss">
