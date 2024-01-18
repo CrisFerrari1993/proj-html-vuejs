@@ -35,7 +35,7 @@ export default {
         <div class="col col-lg-6 col-md-12">
             <img src="https://maree.qodeinteractive.com/wp-content/uploads/2019/05/what-we-offer-img-1.jpg" alt="">
         </div>
-        <div class="col col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column">
+        <div class="col col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column right-col">
             <ul class="d-flex justify-content-between">
                 <li v-for="(offer, i) in offersList" :key="i" @click="select(i)">
                     <a>
@@ -54,13 +54,18 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.row {
+    display: flex;
+    justify-content: center;
+}
+
 img {
     width: 100%;
 }
 
 ul {
     list-style-type: none;
-    width: 80%;
+    width: 90%;
     text-align: center;
 
     li {
@@ -84,5 +89,25 @@ li:hover {
     min-height: 200px;
     width: 80%;
     margin-top: 20px;
+
+    p {
+        color: #6d6d6d;
+        font-weight: 400;
+    }
+}
+
+@media all and (max-width: 991px) {
+
+    .right-col {
+        width: 85%;
+        margin-top: 80px;
+        margin-bottom: 60px;
+
+        a {
+            letter-spacing: .25em;
+            font-size: 13px;
+            font-weight: bold;
+        }
+    }
 }
 </style>
