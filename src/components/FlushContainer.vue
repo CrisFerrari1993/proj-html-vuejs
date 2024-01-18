@@ -11,7 +11,7 @@ export default {
     <div class="row">
       <!-- left side -->
       <div class="col-12 col-xl-6 col-xxl-6">
-        <div class="container px-5 my-5">
+        <div class="container my-5">
           <!-- flushItem -->
           <div class="accordion" id="accordionPanelsStayOpenExample">
 
@@ -151,14 +151,16 @@ p {
 .my_btn {
   background: none;
   border: none;
-  font-size: 1rem;
+  font-size: 13px;
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding: 30px 0;
+  letter-spacing: .25em;
 }
 
 .accordion {
-  padding: 10px 0;
+  font-size: 13px;
 
   i {
     font-size: 15px;
