@@ -31,29 +31,37 @@ export default {
 </script>
 
 <template>
-    <div class="row">
-        <div class="col col-lg-6 col-md-12">
-            <img src="https://maree.qodeinteractive.com/wp-content/uploads/2019/05/what-we-offer-img-1.jpg" alt="">
-        </div>
-        <div class="col col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column right-col">
-            <ul class="d-flex justify-content-between">
-                <li v-for="(offer, i) in offersList" :key="i" @click="select(i)">
-                    <a>
-                        {{ offer.name }}
-                    </a>
-                </li>
-            </ul>
-            <div class="info-container">
-                <div v-if="activeItem !== null">
-                    <p>{{ offersList[activeItem].content }}</p>
+    <div class="container my_container">
+        <div class="row">
+            <div class="col col-lg-6 col-md-12">
+                <img src="https://maree.qodeinteractive.com/wp-content/uploads/2019/05/what-we-offer-img-1.jpg" alt="">
+            </div>
+            <div class="col col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column right-col">
+                <ul class="d-flex justify-content-between">
+                    <li :class="{ 'active': activeItem === i }" v-for="(offer, i) in offersList" :key="i"
+                        @click="select(i)">
+                        <a>
+                            {{ offer.name }}
+                        </a>
+                    </li>
+                </ul>
+                <div class="info-container">
+                    <div v-if="activeItem !== null">
+                        <p>{{ offersList[activeItem].content }}</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
+        </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
+.my_container {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
 .row {
     display: flex;
     justify-content: center;
@@ -81,7 +89,7 @@ ul {
     }
 }
 
-li:hover {
+.active {
     border-bottom: 4px solid #f5d8ca;
 }
 
@@ -111,3 +119,4 @@ li:hover {
     }
 }
 </style>
+intro
