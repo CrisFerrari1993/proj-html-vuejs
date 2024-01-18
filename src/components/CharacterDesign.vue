@@ -9,11 +9,11 @@ export default {
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-12 col-xl-6 px-5">
+                <div class="col-12 col-xl-6 mb-5 px-5">
                     <img class="img-fluid" src="https://maree.qodeinteractive.com/wp-content/uploads/2019/05/team-single-img-1.jpg" alt="">
                 </div>
-                <div class="col-12 col-xl-6 px-5 d-flex align-items-center">
-                    <div>
+                <div class="col-12 col-xl-6 mb-5 px-5 d-flex align-items-center">
+                    <div class="px-5">
                         <h1 class="big_font">
                             Character <strong><em>design</em></strong>
                         </h1>
