@@ -1,12 +1,16 @@
 <script>
 import TeamList from '../components/TeamList.vue';
 import FlushContainer from '../components/FlushContainer.vue';
+import TeamSlider from '../components/TeamSlider.vue';
+import CharacterDesign from '../components/CharacterDesign.vue';
 
 export default {
     name: 'OurTeam',
     components : {
         TeamList,
-        FlushContainer
+        FlushContainer,
+        TeamSlider,
+        CharacterDesign
     
     }   
 }
@@ -15,6 +19,8 @@ export default {
 <template>
     <TeamList />
     <FlushContainer />
+    <TeamSlider/>
+    <CharacterDesign />
 </template>
 
 <style lang="scss">
