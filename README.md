@@ -8,20 +8,28 @@
 - Francesco Fabbri Rebecchi
 - Cristopher Ferrari
 
-# AppHeader
+# Componenti
 
-Francesco Fabbri Rebecchi
+Matteo:
+- App6Squares
+- AppCalendar
+- AppContacts
+- AppNewsletter
+- Offerts
 
-# AppMain
+Cristopher:
+- AppJumbotron
+- AppWorkingProcess
+- FlushContainer
+- TeamSlider
+- NotFound
 
-Matteo Fantacuzzi
-(section 6square, FATTO
-contact, FATTO
-calendar)
-Cristopher Ferrari
-(jumbotron,
-done)
+Francesco:
+- AppFooter
+- CharacterDesign
+- VibesLovingIntro
 
-# AppFooter
+Insieme: 
+- NavBar
+- TeamList
 
-Francesco Fabbri Rebecchi
