@@ -15,9 +15,9 @@ export default {
           <!-- flushItem -->
           <div class="accordion" id="accordionPanelsStayOpenExample">
 
-            <div class="accordion border-pink">
-              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                <button class="accordion-button collapsed fw-bold letter-spacing" type="button" data-bs-toggle="collapse"
+            <div class="accordion">
+              <h2 class="accordion-header border-pink" id="panelsStayOpen-headingOne">
+                <button class="my_btn collapsed fw-bold letter-spacing" type="button" data-bs-toggle="collapse"
                   data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                   aria-controls="panelsStayOpen-collapseOne">
                   ANIMATION
@@ -32,9 +32,9 @@ export default {
               </div>
             </div>
 
-            <div class="accordion border-pink">
-              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                <button class="accordion-button collapsed fw-bold letter-spacing" type="button" data-bs-toggle="collapse"
+            <div class="accordion">
+              <h2 class="accordion-header border-pink" id="panelsStayOpen-headingTwo">
+                <button class="my_btn collapsed fw-bold letter-spacing" type="button" data-bs-toggle="collapse"
                   data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseTwo">
                   RIGGERING
@@ -49,9 +49,9 @@ export default {
               </div>
             </div>
 
-            <div class="accordion border-pink">
-              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                <button class="accordion-button collapsed fw-bold letter-spacing" type="button" data-bs-toggle="collapse"
+            <div class="accordion">
+              <h2 class="accordion-header border-pink" id="panelsStayOpen-headingThree">
+                <button class="my_btn collapsed fw-bold letter-spacing" type="button" data-bs-toggle="collapse"
                   data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseThree">
                   SPECIAL EFFECTS
@@ -66,9 +66,9 @@ export default {
               </div>
             </div>
 
-            <div class="accordion border-pink">
-              <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                <button class="accordion-button collapsed fw-bold letter-spacing" type="button" data-bs-toggle="collapse"
+            <div class="accordion">
+              <h2 class="accordion-header border-pink" id="panelsStayOpen-headingFour">
+                <button class="my_btn collapsed fw-bold letter-spacing" type="button" data-bs-toggle="collapse"
                   data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseFour">
                   3D MODELLING
@@ -136,11 +136,21 @@ p {
   letter-spacing: 2px;
 }
 
-.accordion-button:not(.collapsed) {
+// .accordion-button:not(.collapsed) {
+//   background: none;
+// }
+
+// .accordion-button:focus {
+//   outline: none;
+// }
+.my_btn {
   background: none;
+  border: none;
+  font-size: 1rem;
+  padding-left: 20px;
 }
 
-.accordion-button:focus {
-  outline: none;
+.accordion {
+  padding: 10px 0;
 }
 </style>
