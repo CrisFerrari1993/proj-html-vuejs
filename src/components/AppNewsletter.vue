@@ -1,6 +1,7 @@
 <script>
 export default {
-    name: 'AppNewsletter'
+    name: 'AppNewsletter',
+    
 }
 </script>
 
@@ -10,11 +11,10 @@ export default {
             <h2>Subscribe to our
                 <span>newsletter</span>
             </h2>
-            <div class="form-container">
-                <input type="text" placeholder="Your E-mail">
-                <button>SEND</button>
-            </div>
-
+            <form class="form-container" action="submit">
+                <input type="email" placeholder="Your E-mail">
+                <button type="reset">SEND</button>
+            </form>
         </div>
     </div>
 </template>
@@ -34,6 +34,11 @@ export default {
     .txt-container {
         width: 90%;
         text-align: center;
+
+        span {
+            display: block;
+            margin: 2rem 0;
+        }
 
         h2 {
             font-size: 50px;
