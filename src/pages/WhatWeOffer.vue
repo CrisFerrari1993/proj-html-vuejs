@@ -4,6 +4,7 @@
 import Offerts from '../components/Offerts.vue';
 import VibesLovingIntro from '../components/VibesLovingIntro.vue';
 import AppCalendar from '../components/AppCalendar.vue';
+import AppNewsletter from '../components/AppNewsletter.vue'
 
 
 export default {
@@ -11,7 +12,8 @@ export default {
     components: {
         Offerts,
         VibesLovingIntro,
-        AppCalendar
+        AppCalendar,
+        AppNewsletter
     }
 }
 </script>
@@ -25,6 +27,7 @@ export default {
 
     <Offerts />
     <VibesLovingIntro />
+    <AppNewsletter />
     <AppCalendar />
 </template>
 
@@ -34,7 +37,6 @@ export default {
 .jumbotron {
     width: 100%;
     height: 300px;
-    // da modificare con img di background
     background-image: url(https://maree.qodeinteractive.com/wp-content/uploads/2019/06/title-area-img.png);
     display: flex;
     justify-content: center;
