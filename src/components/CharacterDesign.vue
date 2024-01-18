@@ -9,7 +9,7 @@ export default {
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-12 col-xl-6">
+                <div class="col-12 col-xl-6 px-5">
                     <img class="img-fluid" src="https://maree.qodeinteractive.com/wp-content/uploads/2019/05/team-single-img-1.jpg" alt="">
                 </div>
                 <div class="col-12 col-xl-6 px-5 d-flex align-items-center">
