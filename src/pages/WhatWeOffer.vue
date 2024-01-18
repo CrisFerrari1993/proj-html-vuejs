@@ -3,6 +3,7 @@
 // import dei componenti
 import Offerts from '../components/Offerts.vue';
 import VibesLovingIntro from '../components/VibesLovingIntro.vue';
+import AppCalendar from '../components/AppCalendar.vue';
 
 
 export default {
@@ -10,6 +11,7 @@ export default {
     components: {
         Offerts,
         VibesLovingIntro,
+        AppCalendar
     }
 }
 </script>
@@ -23,6 +25,7 @@ export default {
 
     <Offerts />
     <VibesLovingIntro />
+    <AppCalendar />
 </template>
 
 <style lang="scss">
