@@ -1,25 +1,22 @@
 <script>
-//import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
 import NavBar from './components/NavBar.vue';
 
 
 export default {
-    components: {
-        //AppHeader,
-        AppFooter,
-        NavBar,
-    }
+  components: {
+    AppFooter,
+    NavBar,
+  }
 }
 </script>
 
 <template>
-  <!-- <AppHeader /> -->
   <NavBar />
   <main>
-        <router-view></router-view>
+    <router-view></router-view>
   </main>
-  <AppFooter/>
+  <AppFooter />
 </template>
 
 <style lang="scss">

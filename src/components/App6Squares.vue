@@ -105,6 +105,7 @@ export default {
             display: none;
             transform: translate(0%, -50%);
 
+
             span {
                 display: block;
             }

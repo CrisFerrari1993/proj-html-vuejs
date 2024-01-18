@@ -33,3 +33,12 @@ Insieme:
 - NavBar
 - TeamList
 
+
+# Metodo di lavoro
+
+- Tutti hanno lavorato su più componenti in tutte le pagine
+- Utilizzo di Bootstrap (Matteo)
+
+- Schema del progetto: components, pages, router.js, store.js (scaffholding) (Francesco)
+
+- Spiegazione partendo da App.vue (Cristopher)

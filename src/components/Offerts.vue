@@ -33,10 +33,10 @@ export default {
 <template>
     <div class="container my_container">
         <div class="row">
-            <div class="col col-lg-6 col-md-12">
+            <div class="col-12 col-md-6">
                 <img src="https://maree.qodeinteractive.com/wp-content/uploads/2019/05/what-we-offer-img-1.jpg" alt="">
             </div>
-            <div class="col col-md-6 col-sm-12 d-flex justify-content-center align-items-center flex-column right-col">
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center flex-column right-col">
                 <ul class="d-flex justify-content-between">
                     <li :class="{ 'active': activeItem === i }" v-for="(offer, i) in offersList" :key="i"
                         @click="select(i)">
