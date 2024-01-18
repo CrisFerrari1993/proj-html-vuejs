@@ -152,7 +152,6 @@ p {
   background: none;
   border: none;
   font-size: 1rem;
-  padding-left: 20px;
   display: flex;
   justify-content: space-between;
   width: 100%;
