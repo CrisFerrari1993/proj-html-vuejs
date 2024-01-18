@@ -21,7 +21,9 @@ export default {
                   data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                   aria-controls="panelsStayOpen-collapseOne">
                   ANIMATION
+                  <i class="fa-solid fa-plus"></i>
                 </button>
+
               </h2>
               <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
                 aria-labelledby="panelsStayOpen-headingOne">
@@ -38,6 +40,7 @@ export default {
                   data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseTwo">
                   RIGGERING
+                  <i class="fa-solid fa-plus"></i>
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
@@ -55,6 +58,7 @@ export default {
                   data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseThree">
                   SPECIAL EFFECTS
+                  <i class="fa-solid fa-plus"></i>
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
@@ -72,6 +76,7 @@ export default {
                   data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseFour">
                   3D MODELLING
+                  <i class="fa-solid fa-plus"></i>
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
@@ -148,9 +153,16 @@ p {
   border: none;
   font-size: 1rem;
   padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .accordion {
   padding: 10px 0;
+
+  i {
+    font-size: 15px;
+  }
 }
 </style>
