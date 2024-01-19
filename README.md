@@ -23,10 +23,10 @@ Cristopher:
 - FlushContainer
 - TeamSlider
 - NotFound
+- CharacterDesign
 
 Francesco:
 - AppFooter
-- CharacterDesign
 - VibesLovingIntro
 
 Insieme: 
